@@ -1,4 +1,3 @@
-
 {
   "name": "flow-homepage-wwwmkinc",
   "version": "1.0.0",
@@ -9,12 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.2.0",
+    "framer-motion": "^10.12.16",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "framer-motion": "^10.12.16"
+    "react-dom": "latest"
   },
   "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@types/react": "^19.1.4",
     "typescript": "^5.3.3"
   }
 }
